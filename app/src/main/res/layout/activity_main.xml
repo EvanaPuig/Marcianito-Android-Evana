@@ -14,7 +14,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/bienvenida"
-        android:textColor="@color/abc_background_cache_hint_selector_material_light"
+        android:textColor="@android:color/white"
         android:textSize="@dimen/size_texto_bienvenido"
         android:layout_marginTop="101dp"
         android:layout_alignParentTop="true"
@@ -30,6 +30,6 @@
         android:layout_alignRight="@+id/textView"
         android:layout_alignLeft="@+id/textView"
         android:singleLine="false"
-        android:background="@android:drawable/gallery_thumb"
-        android:textColor="@color/abc_background_cache_hint_selector_material_light" />
+        android:textColor="@android:color/white"
+        android:background="@drawable/button" />
 </RelativeLayout>

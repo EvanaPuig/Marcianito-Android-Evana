@@ -14,21 +14,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/bienvenida"
-        android:textColor="@color/abc_background_cache_hint_selector_material_light"
-        android:textSize="@dimen/abc_text_size_large_material"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
         android:id="@+id/textView"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
     <Button
-        android:layout_width="@dimen/ancho_boton_land"
-        android:layout_height="@dimen/alto_boton_land"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:text="@string/texto_boton"
         android:id="@+id/button"
         android:singleLine="false"
-        android:background="@android:drawable/gallery_thumb"
-        android:textColor="@color/abc_background_cache_hint_selector_material_light"
+        android:textColor="@android:color/white"
         android:layout_centerHorizontal="true"
-        android:layout_below="@+id/textView" />
+        android:layout_below="@+id/textView"
+        android:background="@drawable/button" />
 </RelativeLayout>
